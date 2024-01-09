@@ -1,0 +1,16 @@
+.overlay-images img {
+    margin: 10px; 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  

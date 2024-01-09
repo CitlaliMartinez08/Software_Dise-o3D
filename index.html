@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyNQo1lgZlSO+fW+nNlFi/gOsFSevcC5YF" crossorigin="anonymous">
+    <style>
+        body, html {
+            height: 150%;
+            margin: 0;
+            background: linear-gradient(to right,#3e2b1d, #7d5a44);
+        }
+        
+        header {
+    
+      background: linear-gradient(to right,#3e2b1d, #7d5a44);
+      
+      padding: 10px;
+      image-orientation: right;
+      text-align: left;
+      position: relative;
+      z-index: 2;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+        .fullscreen-image {
+            background-image: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)),url('https://images.homify.com/c_fill,f_auto,h_500,q_auto,w_1280/v1466794734/p/photo/image/1561122/Proyecto-Acacias-firma-de-Interiorismo-Mariangel-Coghlan-01.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 60vh; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            color: #fff;
+            text-align: center;
+            border-color: #d14224;
+        
+        }
+        .fullscreen-image2 {
+            background-image: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)),url('https://casaenorden.com/wp-content/uploads/2022/12/Diseno-sin-titulo-2022-12-19T091427.392.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 70vh; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            color: #fff;
+            text-align: center;
+        }
+        .overlay-images {
+            position: absolute;
+            top: 70vh; 
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: space-around; 
+            width: 100%; 
+            border-color: #d14224;
+         
+        }
+        .overlay-images2 {
+            position: absolute;
+            top: 140vh; 
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: space-around; 
+            width: 100%; 
+            border-color: #d14224;
+        
+        }
+        .overlay-images img {
+            width: 400px; 
+            height: 250px; 
+            object-fit: cover; 
+            border-radius: 10px; 
+            border-color: #d14224;
+            border: 15PX;
+            
+        }
+        .overlay-images2 img {
+            width: 400px; 
+            height: 250px; 
+            object-fit: cover; 
+            border-radius: 10px; 
+            border-color: #d14224;
+            border: 15PX;
+            
+        }
+        .rectangle {
+    background-color: #d14224; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  .rectangle2 {
+    background: linear-gradient(to right,#3e2b1d, #7d5a44); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+   
+  }
+  .rectangle3 {
+    background-color: #d14224; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+        footer {
+      background-color: #fff;
+      color: #223d47;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      z-index: 2;
+    }
+    </style>
+    <title>Software 3D</title>
+</head>
+<body>
+
+    
+    <header class="bg-dark text-white text-center py-3">
+        <img src="imagenes/titulo.png"  alt="Mesas de Madera" width="600px" height="120px" >
+    </header>
+    
+
+    <div class="fullscreen-image">
+        <div class="rectangle"></div>
+    </div>
+
+    <div class="fullscreen-image2">
+        <div class="rectangle2"></div>
+    </div>
+
+    <div class="overlay-images">
+        <img src="imagenes/2.png" alt="Imagen 1">
+        <img src="imagenes/5.png" alt="Imagen 2">
+        <img src="imagenes/8.png" alt="Imagen 3">
+    </div>
+
+    <div class="overlay-images2">
+        <img src="imagenes/9.png" alt="Imagen 1">
+        <img src="imagenes/11.png" alt="Imagen 2">
+        <img src="imagenes/12.png" alt="Imagen 3">
+    </div>
+<div>
+
+
+    <div class="rectangle3"></div>
+
+    <footer>
+        <p>Todos los derechos reservados | &copy; 2024 Cit Martínez</p>
+    </footer>
+</div>
+   
+</body>
+</html>
